@@ -7,13 +7,13 @@ This repository heavily based on [satwantrana/CharSCNN](https://github.com/satwa
 ## Usage
 
 ```
-git clone https://github.com/hogefugabar/CharSCNN
+git clone https://github.com/hogefugabar/CharSCNN-theano
 ```
 
 download [this tweets file from satwantrana/CharSCNN](https://github.com/satwantrana/CharSCNN/blob/master/tweets_clean.txt) and add to cloned repository directory.
 
 ```
-cd CharSCNN
+cd CharSCNN-theano
 python scnn.py
 ```
 
