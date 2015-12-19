@@ -2,7 +2,7 @@
 ## About
 This will be implementation of CharSCNN and SCNN[Ćıcero Nogueira dos Santos 2014].  
 (**CharSCNN has not been implemented yet, SCNN only has been implemented.**)  
-This repository heavily based on [satwantrana/CharSCNN](https://github.com/satwantrana/CharSCNN).
+This repository is heavily based on [satwantrana/CharSCNN](https://github.com/satwantrana/CharSCNN).
 
 ## Usage
 
