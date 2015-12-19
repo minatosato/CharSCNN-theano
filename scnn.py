@@ -164,7 +164,8 @@ class SCNN(object):
 
 if __name__ == '__main__':
 	tmp = []
-	for _ in xrange(10):
+	seed = 10
+	for _ in xrange(seed):
 		rng = np.random.RandomState(_)
 		scnn = SCNN(rng, batchsize=100, activation=relu)
 		accuracies = scnn.train_and_test(n_epoch=3)
@@ -172,7 +173,7 @@ if __name__ == '__main__':
 	tmp = np.array(tmp)
 	mean = [np.mean(tmp[:,i]) for i in range(len(tmp[0]))]
 	mean = np.array(mean)
-	np.savetxt('scnn_original.csv', mean, delimiter=',')
+	np.savetxt('scnn.csv', mean, delimiter=',')
 
 
 
