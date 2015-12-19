@@ -19,7 +19,7 @@ def read(inp_file):
 
 	max_sen_len, num_sent = 0, 20000
 
-	for line in lines:
+	for line in lines[:num_sent]:
 		words = line[:].split()
 		tokens = words[1:]
 		y.append(int(float(words[0])))
