@@ -6,7 +6,6 @@ import theano.tensor as T
 from theano.tensor.nnet import conv
 from theano.tensor.signal import downsample
 import numpy as np
-import matplotlib.pyplot as plt
 from sklearn.cross_validation import train_test_split
 
 from layers import EmbedIDLayer
@@ -15,8 +14,6 @@ from layers import ConvolutionalLayer
 from layers import MaxPoolingLayer
 from utils import *
 from optimizers import *
-
-plt.style.use('ggplot')
 
 # 31566 100
 

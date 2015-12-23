@@ -3,7 +3,6 @@
 
 import numpy, theano
 import theano.tensor as T
-import cPickle as pickle
 
 def read(inp_file):
 	f_in = open(inp_file, 'r')
