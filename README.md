@@ -6,7 +6,7 @@ This repository is heavily based on [satwantrana/CharSCNN](https://github.com/sa
 
 
 ## Requirement
-- Python 2 >= 2.6 or Python 3 >= 3.3
+- Python 2 >= 2.6
 - NumPy >= 1.7.1
 - SciPy >= 0.11
 - Theano == 0.7
