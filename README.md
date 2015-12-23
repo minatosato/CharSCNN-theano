@@ -9,6 +9,7 @@ This repository is heavily based on [satwantrana/CharSCNN](https://github.com/sa
 - Python 2 >= 2.6 or Python 3 >= 3.3
 - NumPy >= 1.7.1
 - SciPy >= 0.11
+- Theano == 0.7
 - scikit-learn == 0.17
 	- for dividing dataset into training set and test set
 
