@@ -2,7 +2,7 @@
 ## About
 This is implementation of CharSCNN and SCNN[Ćıcero Nogueira dos Santos 2014].  
 This repository is heavily based on [satwantrana/CharSCNN](https://github.com/satwantrana/CharSCNN).  
-Experimental results are shown in [this *Japanese* post](http://qiita.com/hogefugabar/items/93fcb2bc27d7b268cbe6).
+Experimental results are shown in [this **Japanese** post](http://qiita.com/hogefugabar/items/93fcb2bc27d7b268cbe6).
 
 
 
