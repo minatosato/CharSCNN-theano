@@ -10,7 +10,7 @@ Experimental results are shown in [this **Japanese** post](http://qiita.com/hoge
 - Python 2 >= 2.6
 - NumPy >= 1.7.1
 - SciPy >= 0.11
-- Theano == 0.7
+- Theano == 0.9.0
 - scikit-learn == 0.17
 	- for dividing dataset into training set and test set
 

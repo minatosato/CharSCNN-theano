@@ -4,7 +4,7 @@
 import theano
 import theano.tensor as T
 from theano.tensor.nnet import conv
-from theano.tensor.signal import downsample
+from theano.tensor.signal import pool as downsample
 import numpy as np
 from sklearn.datasets import fetch_mldata
 from sklearn.cross_validation import train_test_split
@@ -48,9 +48,9 @@ def get_corrupted_input(rng, x, train, corruption_level=0.3):
 	return T.switch(T.neq(train, 0), masked_x, x)
 
 def max_pool_2d(x, poolsize=(2,2)):
-	pooled_out = downsample.max_pool_2d(
+	pooled_out = downsample.pool_2d(
 		input = x,
-		ds = poolsize,
+		ws = poolsize,
 		ignore_border = True
 	)
 	return pooled_out

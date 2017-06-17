@@ -4,7 +4,7 @@
 import theano
 import theano.tensor as T
 from theano.tensor.nnet import conv
-from theano.tensor.signal import downsample
+from theano.tensor.signal import pool as downsample
 import numpy as np
 from sklearn.cross_validation import train_test_split
 
